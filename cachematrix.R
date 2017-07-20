@@ -1,7 +1,7 @@
 ## The following two functions help improving the time or speed taken in calculating an inverse matrix
 ## by leveraging the caching process
 
-## This function initializes the cached matrix to be inversed
+## This function initializes the setter and getter of the matrix to be inversed, the storage of the "previous" matrix and also the inversed input matrix
 
 makeCacheMatrix <- function(x = matrix()) {
 
